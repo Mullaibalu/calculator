@@ -73,3 +73,24 @@ table tbody tr:nth-child(odd) {
     background-color: #dc3545;
     color: white;
 }
+
+@media screen and (max-width:720px) {
+
+    #entry-form {
+        /* display: -ms-inline-grid; */
+        display: inline-grid;
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+
+}
+@media screen and (max-width:480px) {
+    #entry-form {
+        display: inline-grid;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+   
+        
+}
